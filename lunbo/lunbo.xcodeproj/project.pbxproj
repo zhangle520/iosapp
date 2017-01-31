@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080592B61E2AE210008DFB70 /* LoopScrollImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 080592B51E2AE210008DFB70 /* LoopScrollImageView.m */; };
+		080592B91E2BC489008DFB70 /* CustomTableViewCellTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080592B81E2BC489008DFB70 /* CustomTableViewCellTableViewController.m */; };
+		080592BC1E2BC4CD008DFB70 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 080592BB1E2BC4CD008DFB70 /* Cell.m */; };
+		080592C31E2BEF25008DFB70 /* Newdata.m in Sources */ = {isa = PBXBuildFile; fileRef = 080592C21E2BEF25008DFB70 /* Newdata.m */; };
+		080592C61E2BEF4A008DFB70 /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 080592C51E2BEF4A008DFB70 /* BaseObject.m */; };
+		080592C91E2BFAF8008DFB70 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 080592C81E2BFAF8008DFB70 /* Utils.m */; };
+		08442B601E2AC304006F10E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08442B5F1E2AC304006F10E8 /* main.m */; };
+		08442B631E2AC304006F10E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08442B621E2AC304006F10E8 /* AppDelegate.m */; };
+		08442B661E2AC304006F10E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08442B651E2AC304006F10E8 /* ViewController.m */; };
+		08442B691E2AC304006F10E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08442B671E2AC304006F10E8 /* Main.storyboard */; };
+		08442B6B1E2AC304006F10E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08442B6A1E2AC304006F10E8 /* Assets.xcassets */; };
+		08442B6E1E2AC304006F10E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08442B6C1E2AC304006F10E8 /* LaunchScreen.storyboard */; };
+		08442B791E2AC304006F10E8 /* lunboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08442B781E2AC304006F10E8 /* lunboTests.m */; };
+		08442B841E2AC304006F10E8 /* lunboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08442B831E2AC304006F10E8 /* lunboUITests.m */; };
+		08442B931E2AC353006F10E8 /* lunboScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08442B921E2AC353006F10E8 /* lunboScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08442B751E2AC304006F10E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08442B531E2AC303006F10E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08442B5A1E2AC303006F10E8;
+			remoteInfo = lunbo;
+		};
+		08442B801E2AC304006F10E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08442B531E2AC303006F10E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08442B5A1E2AC303006F10E8;
+			remoteInfo = lunbo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080592B41E2AE210008DFB70 /* LoopScrollImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopScrollImageView.h; sourceTree = "<group>"; };
+		080592B51E2AE210008DFB70 /* LoopScrollImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopScrollImageView.m; sourceTree = "<group>"; };
+		080592B71E2BC489008DFB70 /* CustomTableViewCellTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCellTableViewController.h; sourceTree = "<group>"; };
+		080592B81E2BC489008DFB70 /* CustomTableViewCellTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCellTableViewController.m; sourceTree = "<group>"; };
+		080592BA1E2BC4CD008DFB70 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		080592BB1E2BC4CD008DFB70 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		080592C11E2BEF25008DFB70 /* Newdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Newdata.h; sourceTree = "<group>"; };
+		080592C21E2BEF25008DFB70 /* Newdata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Newdata.m; sourceTree = "<group>"; };
+		080592C41E2BEF4A008DFB70 /* BaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseObject.h; sourceTree = "<group>"; };
+		080592C51E2BEF4A008DFB70 /* BaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseObject.m; sourceTree = "<group>"; };
+		080592C71E2BFAF8008DFB70 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		080592C81E2BFAF8008DFB70 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		08442B5B1E2AC303006F10E8 /* lunbo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lunbo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08442B5F1E2AC304006F10E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08442B611E2AC304006F10E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08442B621E2AC304006F10E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08442B641E2AC304006F10E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		08442B651E2AC304006F10E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08442B681E2AC304006F10E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08442B6A1E2AC304006F10E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08442B6D1E2AC304006F10E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08442B6F1E2AC304006F10E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08442B741E2AC304006F10E8 /* lunboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lunboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08442B781E2AC304006F10E8 /* lunboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lunboTests.m; sourceTree = "<group>"; };
+		08442B7A1E2AC304006F10E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08442B7F1E2AC304006F10E8 /* lunboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lunboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08442B831E2AC304006F10E8 /* lunboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lunboUITests.m; sourceTree = "<group>"; };
+		08442B851E2AC304006F10E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08442B911E2AC353006F10E8 /* lunboScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lunboScrollView.h; sourceTree = "<group>"; };
+		08442B921E2AC353006F10E8 /* lunboScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lunboScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08442B581E2AC303006F10E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08442B711E2AC304006F10E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08442B7C1E2AC304006F10E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080592BD1E2BEE5C008DFB70 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				080592C01E2BEED5008DFB70 /* Model */,
+				080592BF1E2BEEAA008DFB70 /* Views */,
+				080592BE1E2BEE91008DFB70 /* Controllers */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		080592BE1E2BEE91008DFB70 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				080592B71E2BC489008DFB70 /* CustomTableViewCellTableViewController.h */,
+				080592B81E2BC489008DFB70 /* CustomTableViewCellTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		080592BF1E2BEEAA008DFB70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				080592BA1E2BC4CD008DFB70 /* Cell.h */,
+				080592BB1E2BC4CD008DFB70 /* Cell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		080592C01E2BEED5008DFB70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				080592C11E2BEF25008DFB70 /* Newdata.h */,
+				080592C21E2BEF25008DFB70 /* Newdata.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		08442B521E2AC303006F10E8 = {
+			isa = PBXGroup;
+			children = (
+				08442B5D1E2AC304006F10E8 /* lunbo */,
+				08442B771E2AC304006F10E8 /* lunboTests */,
+				08442B821E2AC304006F10E8 /* lunboUITests */,
+				08442B5C1E2AC303006F10E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08442B5C1E2AC303006F10E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08442B5B1E2AC303006F10E8 /* lunbo.app */,
+				08442B741E2AC304006F10E8 /* lunboTests.xctest */,
+				08442B7F1E2AC304006F10E8 /* lunboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08442B5D1E2AC304006F10E8 /* lunbo */ = {
+			isa = PBXGroup;
+			children = (
+				080592BD1E2BEE5C008DFB70 /* News */,
+				080592C71E2BFAF8008DFB70 /* Utils.h */,
+				080592C81E2BFAF8008DFB70 /* Utils.m */,
+				08442B611E2AC304006F10E8 /* AppDelegate.h */,
+				08442B621E2AC304006F10E8 /* AppDelegate.m */,
+				08442B641E2AC304006F10E8 /* ViewController.h */,
+				08442B651E2AC304006F10E8 /* ViewController.m */,
+				08442B671E2AC304006F10E8 /* Main.storyboard */,
+				08442B6A1E2AC304006F10E8 /* Assets.xcassets */,
+				08442B6C1E2AC304006F10E8 /* LaunchScreen.storyboard */,
+				08442B911E2AC353006F10E8 /* lunboScrollView.h */,
+				08442B921E2AC353006F10E8 /* lunboScrollView.m */,
+				080592B41E2AE210008DFB70 /* LoopScrollImageView.h */,
+				080592B51E2AE210008DFB70 /* LoopScrollImageView.m */,
+				08442B6F1E2AC304006F10E8 /* Info.plist */,
+				08442B5E1E2AC304006F10E8 /* Supporting Files */,
+			);
+			path = lunbo;
+			sourceTree = "<group>";
+		};
+		08442B5E1E2AC304006F10E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				080592C41E2BEF4A008DFB70 /* BaseObject.h */,
+				080592C51E2BEF4A008DFB70 /* BaseObject.m */,
+				08442B5F1E2AC304006F10E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08442B771E2AC304006F10E8 /* lunboTests */ = {
+			isa = PBXGroup;
+			children = (
+				08442B781E2AC304006F10E8 /* lunboTests.m */,
+				08442B7A1E2AC304006F10E8 /* Info.plist */,
+			);
+			path = lunboTests;
+			sourceTree = "<group>";
+		};
+		08442B821E2AC304006F10E8 /* lunboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08442B831E2AC304006F10E8 /* lunboUITests.m */,
+				08442B851E2AC304006F10E8 /* Info.plist */,
+			);
+			path = lunboUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08442B5A1E2AC303006F10E8 /* lunbo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08442B881E2AC304006F10E8 /* Build configuration list for PBXNativeTarget "lunbo" */;
+			buildPhases = (
+				08442B571E2AC303006F10E8 /* Sources */,
+				08442B581E2AC303006F10E8 /* Frameworks */,
+				08442B591E2AC303006F10E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lunbo;
+			productName = lunbo;
+			productReference = 08442B5B1E2AC303006F10E8 /* lunbo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08442B731E2AC304006F10E8 /* lunboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08442B8B1E2AC304006F10E8 /* Build configuration list for PBXNativeTarget "lunboTests" */;
+			buildPhases = (
+				08442B701E2AC304006F10E8 /* Sources */,
+				08442B711E2AC304006F10E8 /* Frameworks */,
+				08442B721E2AC304006F10E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08442B761E2AC304006F10E8 /* PBXTargetDependency */,
+			);
+			name = lunboTests;
+			productName = lunboTests;
+			productReference = 08442B741E2AC304006F10E8 /* lunboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08442B7E1E2AC304006F10E8 /* lunboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08442B8E1E2AC304006F10E8 /* Build configuration list for PBXNativeTarget "lunboUITests" */;
+			buildPhases = (
+				08442B7B1E2AC304006F10E8 /* Sources */,
+				08442B7C1E2AC304006F10E8 /* Frameworks */,
+				08442B7D1E2AC304006F10E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08442B811E2AC304006F10E8 /* PBXTargetDependency */,
+			);
+			name = lunboUITests;
+			productName = lunboUITests;
+			productReference = 08442B7F1E2AC304006F10E8 /* lunboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08442B531E2AC303006F10E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yunva;
+				TargetAttributes = {
+					08442B5A1E2AC303006F10E8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XBD29W2WTQ;
+					};
+					08442B731E2AC304006F10E8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 08442B5A1E2AC303006F10E8;
+					};
+					08442B7E1E2AC304006F10E8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 08442B5A1E2AC303006F10E8;
+					};
+				};
+			};
+			buildConfigurationList = 08442B561E2AC303006F10E8 /* Build configuration list for PBXProject "lunbo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08442B521E2AC303006F10E8;
+			productRefGroup = 08442B5C1E2AC303006F10E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08442B5A1E2AC303006F10E8 /* lunbo */,
+				08442B731E2AC304006F10E8 /* lunboTests */,
+				08442B7E1E2AC304006F10E8 /* lunboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08442B591E2AC303006F10E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08442B6E1E2AC304006F10E8 /* LaunchScreen.storyboard in Resources */,
+				08442B6B1E2AC304006F10E8 /* Assets.xcassets in Resources */,
+				08442B691E2AC304006F10E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08442B721E2AC304006F10E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08442B7D1E2AC304006F10E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08442B571E2AC303006F10E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080592C31E2BEF25008DFB70 /* Newdata.m in Sources */,
+				080592B91E2BC489008DFB70 /* CustomTableViewCellTableViewController.m in Sources */,
+				08442B661E2AC304006F10E8 /* ViewController.m in Sources */,
+				080592C91E2BFAF8008DFB70 /* Utils.m in Sources */,
+				08442B631E2AC304006F10E8 /* AppDelegate.m in Sources */,
+				08442B931E2AC353006F10E8 /* lunboScrollView.m in Sources */,
+				080592B61E2AE210008DFB70 /* LoopScrollImageView.m in Sources */,
+				08442B601E2AC304006F10E8 /* main.m in Sources */,
+				080592C61E2BEF4A008DFB70 /* BaseObject.m in Sources */,
+				080592BC1E2BC4CD008DFB70 /* Cell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08442B701E2AC304006F10E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08442B791E2AC304006F10E8 /* lunboTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08442B7B1E2AC304006F10E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08442B841E2AC304006F10E8 /* lunboUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08442B761E2AC304006F10E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08442B5A1E2AC303006F10E8 /* lunbo */;
+			targetProxy = 08442B751E2AC304006F10E8 /* PBXContainerItemProxy */;
+		};
+		08442B811E2AC304006F10E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08442B5A1E2AC303006F10E8 /* lunbo */;
+			targetProxy = 08442B801E2AC304006F10E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08442B671E2AC304006F10E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08442B681E2AC304006F10E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08442B6C1E2AC304006F10E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08442B6D1E2AC304006F10E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08442B861E2AC304006F10E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08442B871E2AC304006F10E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08442B891E2AC304006F10E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = lunbo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.yunva.lunbo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		08442B8A1E2AC304006F10E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = lunbo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.yunva.lunbo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		08442B8C1E2AC304006F10E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lunboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.yunva.lunboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lunbo.app/lunbo";
+			};
+			name = Debug;
+		};
+		08442B8D1E2AC304006F10E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lunboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.yunva.lunboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lunbo.app/lunbo";
+			};
+			name = Release;
+		};
+		08442B8F1E2AC304006F10E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lunboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.yunva.lunboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lunbo;
+			};
+			name = Debug;
+		};
+		08442B901E2AC304006F10E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lunboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.yunva.lunboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lunbo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08442B561E2AC303006F10E8 /* Build configuration list for PBXProject "lunbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08442B861E2AC304006F10E8 /* Debug */,
+				08442B871E2AC304006F10E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08442B881E2AC304006F10E8 /* Build configuration list for PBXNativeTarget "lunbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08442B891E2AC304006F10E8 /* Debug */,
+				08442B8A1E2AC304006F10E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08442B8B1E2AC304006F10E8 /* Build configuration list for PBXNativeTarget "lunboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08442B8C1E2AC304006F10E8 /* Debug */,
+				08442B8D1E2AC304006F10E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08442B8E1E2AC304006F10E8 /* Build configuration list for PBXNativeTarget "lunboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08442B8F1E2AC304006F10E8 /* Debug */,
+				08442B901E2AC304006F10E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08442B531E2AC303006F10E8 /* Project object */;
+}
