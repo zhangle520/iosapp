@@ -1,0 +1,10 @@
+Package: com.yourcompany.screenshotter
+Name: ScreenShotter
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An ScreenShotter MobileSubstrate tweak!
+Maintainer: zhangle
+Author: zhangle
+Section: Tweaks
+Version: 0.0.1-50
+Installed-Size: 56
