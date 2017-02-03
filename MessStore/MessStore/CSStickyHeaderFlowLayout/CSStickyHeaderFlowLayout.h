@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 extern NSString *const CSStickyHeaderParallaxHeader;
-
+//生活界面上面的图片
 @interface CSStickyHeaderFlowLayout : UICollectionViewFlowLayout
 
 @property (nonatomic) CGSize parallaxHeaderReferenceSize;

@@ -54,11 +54,8 @@ static NSString * const reuseIdentifier = @"WeatherTableViewCell";
     if (cell == nil) {
         cell = [[WeatherTableViewCell alloc] init];
     }
-    if (indexPath.row >= 1) {
-        self.model = [[WeatherModel alloc] getUrl:WeatherUrl];
-        [cell initWithModel:_model];
-    }
-    
+    self.model = [[WeatherModel alloc] getUrl:WeatherUrl];
+    [cell initWithModel:_model];
     
     return cell;
 }
