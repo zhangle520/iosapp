@@ -22,6 +22,6 @@
 @property (nonatomic, strong) UIImage *dImg1;
 @property (nonatomic, strong) UIImage *nImg0;
 
-- (WeatherModel *)getUrl:(NSString *)url;
+- (instancetype)getUrl:(NSString *)url;
 @end
 //{"weatherinfo":{"city":"鍖椾含","cityid":"101010100","temp1":"-2鈩�","temp2":"16鈩�","weather":"鏅�","img1":"n0.gif","img2":"d0.gif","ptime":"18:00"}}

@@ -26,7 +26,7 @@
     }
     return self;
 }
-- (WeatherModel *)getUrl:(NSString *)url{
+- (instancetype)getUrl:(NSString *)url{
             NSError *error = 0;
             //加载一个NSURL对象
             NSURLRequest *urlRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
